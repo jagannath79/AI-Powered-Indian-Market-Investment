@@ -7,7 +7,7 @@ export default function Page() {
     <main className="min-h-screen bg-slate-950 text-slate-100 p-6">
       <header className="mb-6">
         <h1 className="text-3xl font-bold">AI-Powered Indian Market Investment Intelligence Platform</h1>
-        <p className="text-slate-400">Now functional: live Yahoo Finance fetch + recommendation + position sizing.</p>
+        <p className="text-slate-400">Live-data decision support • INR allocation • Risk-first recommendations</p>
       </header>
       <section className="grid grid-cols-1 xl:grid-cols-3 gap-4">
         <div className="xl:col-span-1"><CapitalInputPanel /></div>
@@ -17,7 +17,7 @@ export default function Page() {
         <OpportunityBoard />
       </section>
       <footer className="text-xs text-slate-500 mt-6">
-        Informational/educational only. Decision-support, not guaranteed investment advice.
+        Informational/educational only. Not guaranteed financial advice.
       </footer>
     </main>
   );
